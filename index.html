@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>プライバシーポリシー｜ここね - 声の日記</title>
+<title>プライバシーポリシー / Privacy Policy｜ここね - 声の日記 (Kokone)</title>
 <style>
   :root { --ink:#0F2D46; --muted:#6B8299; --bg:#F2F6F9; --line:#D8E2EA; }
   * { box-sizing:border-box; }
@@ -28,13 +28,19 @@
   th { font-weight:600; background:#E8EFF4; white-space:nowrap; }
   a { color:#2E6E93; }
   footer { margin-top:56px; padding-top:24px; border-top:1px solid #D8E2EA; font-size:13px; color:#6B8299; }
+  .lang { font-size:13px; margin:0 0 28px; }
+  .lang a { margin-right:14px; }
+  section + section { margin-top:88px; padding-top:48px; border-top:2px solid #D8E2EA; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
+<div class="lang"><a href="#japanese">日本語</a><a href="#english">English</a></div>
+
+<section id="japanese" lang="ja">
 <h1>プライバシーポリシー</h1>
-<div class="meta">アプリ「ここね - 声の日記」／最終更新日：2026年8月15日</div>
+<div class="meta">アプリ「ここね - 声の日記」／最終更新日：2026年10月2日</div>
 
 <p>株式会社ストロボファクトリー（以下「当社」）は、iOSアプリケーション「ここね - 声の日記」（以下「本アプリ」）をご利用いただく皆様のプライバシーを尊重し、個人情報の適切な保護に努めます。本ポリシーは、本アプリが取得する情報、その取得方法、利用目的、および第三者との共有について説明するものです。</p>
 
@@ -44,7 +50,7 @@
   <tr><th>情報の種類</th><th>取得方法</th><th>利用目的</th></tr>
   <tr>
     <td>音声の文字起こしテキスト</td>
-    <td>ユーザーが録音を実行した際、iOSのSpeech Frameworkにより端末上で文字に変換</td>
+    <td>ユーザーが録音を実行した際、iOSの音声認識（Speech Framework）により文字に変換</td>
     <td>感情分析およびコーチングメッセージの生成</td>
   </tr>
   <tr>
@@ -55,7 +61,7 @@
   <tr>
     <td>気分の自己申告値</td>
     <td>ユーザーが気分ピッカーで選択</td>
-    <td>7日間トレンドの表示</td>
+    <td>気持ちの推移の表示。連携をオンにした場合は、Apple「ヘルスケア」への書き込み（第4項）</td>
   </tr>
   <tr>
     <td>お名前・メールアドレス</td>
@@ -90,31 +96,39 @@
 
 <p><strong>Anthropic社におけるデータの取り扱い：</strong>Anthropic社は、API経由で送信されたデータを生成AIモデルの学習・訓練に使用しません。同社は不正利用の検知を目的として送信データを限定的な期間保持したのち削除します。同社のプライバシーポリシーは <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">https://www.anthropic.com/legal/privacy</a> をご参照ください。当社は、Anthropic社が本ポリシーと同等以上の水準でデータを保護することを確認しています。</p>
 
-<h2>4. 第三者への販売・提供</h2>
+<h2>4. Apple「ヘルスケア」との連携（任意）</h2>
+
+<p>ユーザーがアプリ内の「設定 → ヘルスケア」で連携をオンにした場合に限り、本アプリは、記録のときに選んだ気分と、分析で得られた感情のラベルを、Apple「ヘルスケア」の「心の状態」に書き込みます。<strong>日記の本文や写真は書き込みません。</strong></p>
+
+<p>本アプリがヘルスケアのデータを読み取ることはありません。ヘルスケアのデータを当社のサーバーやAIサービスに送信すること、広告・マーケティングやデータマイニングに利用すること、第三者に提供することもありません。</p>
+
+<p>連携は設定からいつでもオフにできます。アプリ内で記録を削除すると、本アプリが書き込んだ対応する「心の状態」も削除します。ヘルスケアに書き込まれたデータは、Apple「ヘルスケア」アプリからも確認・削除できます。</p>
+
+<h2>5. 第三者への販売・提供</h2>
 
 <p>当社は、取得した情報を第三者に販売しません。前項に記載したAI分析の実行に必要な範囲を除き、法令に基づく場合を除いて第三者に提供・開示することはありません。</p>
 
-<h2>5. 広告およびトラッキング</h2>
+<h2>6. 広告およびトラッキング</h2>
 
 <p>本アプリは広告を表示せず、広告ネットワークやアナリティクスSDKを一切組み込んでいません。App Trackingの許可を求めることもありません。</p>
 
-<h2>6. アカウントとデータの削除</h2>
+<h2>7. アカウントとデータの削除</h2>
 
 <p>ユーザーはいつでも、アプリ内の「設定 → アカウントとデータを削除」から、アカウント情報およびすべての記録を完全に削除できます。削除は端末上で即時に実行され、当社への申請や連絡は不要です。</p>
 
-<h2>7. お子様のプライバシー</h2>
+<h2>8. お子様のプライバシー</h2>
 
 <p>本アプリは主に成人の利用を想定しています。当社が13歳未満のお子様から意図的に個人情報を取得することはありません。</p>
 
-<h2>8. 医療目的での利用について</h2>
+<h2>9. 医療目的での利用について</h2>
 
 <p>本アプリはセルフリフレクション（自己内省）を支援するツールであり、医療行為・診断・治療を目的としたものではありません。健康上の懸念がある場合は、医療専門家にご相談ください。</p>
 
-<h2>9. 本ポリシーの変更</h2>
+<h2>10. 本ポリシーの変更</h2>
 
 <p>当社は、法令の改正やサービス内容の変更に応じて本ポリシーを改定することがあります。重要な変更を行う場合は、アプリ内またはApp Storeの更新情報にてお知らせします。</p>
 
-<h2>10. お問い合わせ</h2>
+<h2>11. お問い合わせ</h2>
 
 <p>本ポリシーおよび個人情報の取り扱いに関するお問い合わせは、下記までご連絡ください。</p>
 
@@ -123,6 +137,108 @@
 HAPIVERI Healthcare.ai<br>
 メール：<a href="mailto:info@hapiveri.com">info@hapiveri.com</a>
 </p>
+</section>
+
+<section id="english" lang="en">
+<h1>Privacy Policy</h1>
+<div class="meta">App: Kokone - Voice Journal / Last updated: October 2, 2026</div>
+
+<p>STROBOFACTORY Inc. ("we") respects the privacy of everyone who uses the iOS app "Kokone - Voice Journal" (the "App") and works to protect personal information appropriately. This policy explains what information the App handles, how it is obtained, what it is used for, and how it is shared with third parties.</p>
+
+<h2>1. Information we handle and how it is obtained</h2>
+
+<table>
+  <tr><th>Type</th><th>How it is obtained</th><th>Purpose</th></tr>
+  <tr>
+    <td>Text transcribed from your voice</td>
+    <td>Converted to text by iOS speech recognition (the Speech framework) when you record</td>
+    <td>Generating the emotion analysis and coaching message</td>
+  </tr>
+  <tr>
+    <td>Photos</td>
+    <td>Only when you take one with the camera or choose one from your photo library</td>
+    <td>Generating the emotion analysis and coaching message</td>
+  </tr>
+  <tr>
+    <td>Self-reported mood</td>
+    <td>Chosen by you in the mood picker</td>
+    <td>Showing how your mood changes over time. If you turn on the connection, writing to Apple Health (Section 4)</td>
+  </tr>
+  <tr>
+    <td>Name and email address</td>
+    <td>Entered only if you choose to create an account</td>
+    <td>Display inside the App only</td>
+  </tr>
+</table>
+
+<p>The App does not obtain your location, contacts, advertising identifier, or other device information. It does not track your activity.</p>
+
+<h2>2. Where data is stored</h2>
+
+<p>Your entries, self-reported mood, name, and email address are all <strong>stored only on your device</strong>. They are not stored on our servers.</p>
+
+<p>Your name and email address are never sent off your device, and no third party, including us, can view them.</p>
+
+<p>If you delete the App from your device, or use "Delete account and data" in the App, all of this data is erased. We cannot restore erased data.</p>
+
+<h2>3. Sending data to a third-party AI service</h2>
+
+<p>The emotion analysis feature uses Claude API, an AI service provided by Anthropic, PBC (United States; "Anthropic"). When you run an analysis, the following data is sent to Anthropic through our relay server (a hosting environment provided by Vercel Inc.):</p>
+
+<ul>
+  <li>Text transcribed from your voice</li>
+  <li>Photos you attached to the entry</li>
+  <li>Captions you typed</li>
+</ul>
+
+<p><strong>What is not sent:</strong> your name, email address, device identifiers, location, or other information that could identify you as an individual. Only the entry content listed above is sent, and it is sent in a form that is not linked to a specific individual.</p>
+
+<p><strong>Prior consent:</strong> The first time you run an analysis, the App shows what data is sent and where, and asks for your explicit consent. If you do not consent, the analysis feature does not run. You can withdraw consent at any time in the App's settings.</p>
+
+<p><strong>How Anthropic handles the data:</strong> Anthropic does not use data sent through its API to train generative AI models. It retains the data for a limited period for abuse detection and then deletes it. See Anthropic's privacy policy at <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">https://www.anthropic.com/legal/privacy</a>. We have confirmed that Anthropic protects data at a level equal to or higher than this policy.</p>
+
+<h2>4. Apple Health (optional)</h2>
+
+<p>Only if you turn on the connection in the App under Settings → Health, the App writes the mood you chose when recording, and the emotion labels from the analysis, to State of Mind in Apple Health. <strong>The text of your entries and your photos are not written.</strong></p>
+
+<p>The App does not read your Health data. Health data is not sent to our servers or to the AI service, is not used for advertising, marketing, or data mining, and is not provided to third parties.</p>
+
+<p>You can turn the connection off at any time in Settings. When you delete an entry in the App, the matching State of Mind record written by the App is deleted as well. You can also view and delete data written to Health in the Apple Health app.</p>
+
+<h2>5. Selling or sharing with third parties</h2>
+
+<p>We do not sell the information we handle. Except as needed to run the AI analysis described in Section 3, or as required by law, we do not provide or disclose it to third parties.</p>
+
+<h2>6. Advertising and tracking</h2>
+
+<p>The App shows no ads and includes no advertising network or analytics SDK. It does not ask for App Tracking permission.</p>
+
+<h2>7. Deleting your account and data</h2>
+
+<p>You can permanently delete your account information and all entries at any time from Settings → Delete account and data in the App. Deletion happens immediately on your device. You do not need to contact us.</p>
+
+<h2>8. Children's privacy</h2>
+
+<p>The App is intended mainly for adults. We do not knowingly collect personal information from children under 13.</p>
+
+<h2>9. Not for medical use</h2>
+
+<p>The App is a tool that supports self-reflection. It is not intended for medical care, diagnosis, or treatment. If you have a health concern, please consult a medical professional.</p>
+
+<h2>10. Changes to this policy</h2>
+
+<p>We may revise this policy in response to changes in the law or in the service. If we make a significant change, we will announce it in the App or in the App Store update notes.</p>
+
+<h2>11. Contact</h2>
+
+<p>For questions about this policy or how personal information is handled, please contact:</p>
+
+<p>
+STROBOFACTORY Inc.<br>
+HAPIVERI Healthcare.ai<br>
+Email: <a href="mailto:info@hapiveri.com">info@hapiveri.com</a>
+</p>
+</section>
 
 <footer>
   © 2026 STROBOFACTORY Inc. All rights reserved.
